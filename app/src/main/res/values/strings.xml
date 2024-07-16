@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bara</string>
+    <string name="about_bara">BARA (Briquettes Analysis and Reporting Application) is an innovative application designed to support and enhance the production of briquettes from organic waste. Our mission is to promote sustainable waste management practices and contribute to a better green waste management.\n\nBARA is a monitoring application designed to simplify the process of burning organic materials that will be processed into biomass briquettes. BARA can monitor the combustion temperature in the carbonization barrel and combustion furnace, automatic fans and predict the completion time of the combustion process.</string>
+    <string name="welcome">Besides helping with organic waste management,\nbriquettes can also be used as fuel for daily needs.</string>
+</resources>

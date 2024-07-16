@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="200px">
+        <shape>
+            <solid android:color="@color/cream" />
+        </shape>
+    </item>
+    <item android:height="500dp">
+        <shape android:layout_height="match_parent">
+            <solid android:color="@color/cream" />
+        </shape>
+    </item>
+    <item android:top="-500dp" android:bottom="580dp" android:left="-100dp" android:right="-100dp">
+        <shape android:layout_height="match_parent">
+            <corners android:radius="150dp" />
+            <solid android:color="@color/green" />
+        </shape>
+    </item>
+</layer-list>

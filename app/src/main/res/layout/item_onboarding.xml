@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_onboarding"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        tools:src="@drawable/onboarding_one"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Welcome to BARA"
+        android:textStyle="bold"
+        android:layout_marginVertical="24dp"
+        android:textSize="24sp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Join us in transforming organic waste into valuable briquettes."
+        android:lineHeight="24sp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:paddingHorizontal="32dp"/>
+
+</LinearLayout>
